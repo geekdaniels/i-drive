@@ -1,0 +1,159 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+/**/
+nav .navhead{
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 90% !important;
+}
+nav{
+  background-color: #fff !important;
+/*  background-image: url("../img/16.jpg");*/
+}
+.brand-logo img {
+	height: 70px;
+}
+  .hr{
+	border: 0;
+	border-top: 1px solid orange !important;
+    }
+  
+@media only screen and (min-width: 601px){
+.navbar-fixed, nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
+     height: 56px; 
+     line-height: 56px; 
+}
+ 
+  .width{
+    margin: 0 auto;
+    width: 1140px !important;
+max-width: 100%;
+/*    max-width: 1280px;*/
+/*    width: 90% !important;*/
+  }
+  @media only screen and (min-width: 993px){
+    body{
+          background-color: rgba(240, 240, 240, 0.6);
+    }
+    .card .card-content p, .card .card-title{
+/*      text-align: center !important;*/
+    }
+  .row .col.l4{
+      padding-right: 20px !important;
+    padding-left: 20px !important;
+}
+    h5{
+    font-weight: 600 !important;
+    color: rgb(55, 62, 68) !important;
+  }
+     
+  }
+   @media only screen and (min-width: 993px){
+.container {
+    width: 1140px !important;
+    }}
+
+    
+    /* Slider     Section */
+
+    .slider .indicators .indicator-item {
+  background-color: #666666;
+  border: 3px solid #ffffff;
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+.slider .indicators .indicator-item.active {
+  background-color: #ffffff;
+}
+    .slider ul.slides{
+	height: 340px !important;
+}
+
+.slider {
+  height: 375px !important; 
+}\*
+.slider .indicators {
+  bottom: 60px;
+  z-index: 100;
+
+}*/
+    
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+/*  min-height: 350px;*/
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+/*  background: rgba(10,10,10,0.80);*/
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+    
+   
+   
+  
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+  
+  .animated{
+    visibility: hidden;
+  }
+
+
+  
+/*
+==============================================
+OVERWRITE ANIMATIONS
+==============================================
+*/
+  .bounce, .fadeInDown, .fadeInLeft, .fadeInRight, .slideInLeft, .slideInDown, .slideInUp, .slideInRight, .pulse, .floating, .tossing, .pullUp, .pullDown, .stretchLeft, .stretchRight{
+	visibility: visible !important;	
+}
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+   
